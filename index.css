@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    background-color: #23252C;
+    font-family: Inter, sans-serif;
+}
+
+#root {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 320px;
+    margin: 1em auto;
+    border-radius: 16px;
+    background-color: #1A1B21;
+}
+
+/* Profile Picture */
+.profile-picture {
+    border-radius: 16px 16px 0 0;
+    width: -webkit-fill-available;
+}
+
+/* Person Info */
+.person-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-name {
+    color: #FFF;
+    font-size: 25px;
+    margin: 21px 0 4px 0;
+}
+
+.person-occupation {
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 4px 0 8px 0;
+    letter-spacing: 1px;
+}
+
+.person-website {
+    font-size: 12px;
+    font-weight: 400;
+    color: #F5F5F5;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+/* Email button */
+.email-button {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    width: 245px;
+    padding: 8px;
+    border-radius: 6px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.email-icon {
+    margin: 0 8px;
+}
+
+.send-email {
+    text-decoration: none;
+    color: #374151
+}
+
+/* Person About / Person Interests  */
+.person-about {
+    margin: 16px 24px 4px 24px;
+    color: #F5F5F5;
+}
+
+.person-interests {
+    margin: 4px 24px 16px 24px;
+    color: #F5F5F5;
+}
+
+.person-about-title,
+.person-interests-title  {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.person-about-para,
+.person-interests-para {
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: -webkit-fill-available;
+    border-radius: 0 0 16px 16px;
+    background-color: #161619;
+}
+
+.icon {
+    margin: 0 12px;
+    width: 25px;
+    height: 25px;
+}
