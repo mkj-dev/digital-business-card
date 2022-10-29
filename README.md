@@ -1,2 +1,3 @@
 # digital-business-card
-Business card template made with React.js.
+Digital Business Card template made with React.js (without JSX syntax).
+https://gamy-boiling-people.glitch.me/
